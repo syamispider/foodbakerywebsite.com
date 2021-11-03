@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title> Product Page</title>
+<link rel="stylesheet" type="text/css" href="structure.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="bekasbesar"><!-- bekas besar bermula ----------------->
+	<div id="kotak1"><!------- kotak1 mula ----->
+		<div id="logo" style="width:40%; float:left;">
+			<img src="logo1.png" style="width:40%; height:auto;">
+		</div>
+        
+		<div id="menu" style="width:60%; float:left;">
+			<p id="text1" style="margin-top:17%;">
+				<a href="index bakery.html"><strong>MAIN</strong></a> | 
+                <a href="video bakery.html"><strong>VIDEO</strong></a> | 
+                <strong>PRODUCT</strong> | <a href="locate bakery.html"><strong>LOCATE US?</strong></a>			</p>
+	  </div>
+	</div><!------- kotak1 akhir ----->
+
+	<div id="kotak2"><!------- kotak2 mula ----->
+		<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Project-Cocoa-and-cocoa-horizons-150dpi-800x300.jpg" id="gambar">
+  <div class="text3">Bakery Fresh local good Project</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="banner6.jpg" id="gambar">
+  <div class="text3">Banner project</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="banner10.jpg" id="gambar">
+  <div class="text3">Bake advertisement </div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+</div>
+<!------- kotak2 akhir ----->
+
+	<div id="kotak3_product"><!------- kotak3 mula ----->
+        <h1>BAKERY FOOD</h1>
+        <hr style="border-top: dotted 1px; color:#999; width:100%;">
+        
+        <div class="text" style="width:25%; height:400px; float:left; padding:1%;">
+         <img src="chocolate-glaze.jpg" width="100%" height="200px" id="gambar"  class="image"/>
+         <div class="below">
+           <div class="text"><strong>Chocolate Donut</strong></div>
+         </div>
+      This Bakery Product is sold at <a href="20, JALAN GREENTOWN 1, GREENTOWN NOVA,30450 IPOH, PERAK">Kisya Bakery Ipoh</a> </div>
+        
+        <div class="text" style="width:25%; height:400px; float:left; padding:1%;" >
+        <img src="006TTD3820B4221B902BA7px.jpg" width="100%" height="200px" id="gambar" class="image"/>
+        <div class="below">
+          <div class="text"><strong>Mango Cake</strong></div>
+         </div>
+      This Bakery Product is sold at <a href="95&amp;97 , JALAN CHUNG AH MING, TAMAN HOOVER, 31650 IPOH, PERAK">Aunty Lee Cake & Patries Ipoh</a> </div>
+        
+        <div class="text" style="width:25%; height:400px; float:left; padding:1%;" >
+        <img src="bcake.jpg" id="gambar" width="100%" height="200px" class="image" />
+        <div class="below">
+          <div class="text"><strong>Birthday Cake</strong></div>
+         </div>
+      This Bakery Product is sold at <a href="21, JALAN PERAJURIT, GARDEN EAST, 31400 IPOH, PERAK">Family Bakery Ipoh Garden East</a> </div>
+        
+      <div class="text" style="width:25%; height:400px; float:left; padding:1%;" >
+      <img src="choc rice bun.png" width="100%" height="200px" alt="nut" />
+          <div class="below">
+            <div class="text"><strong>Choc Rice Bun</strong></div>
+        </div>
+      This Bakery Product is sold at <a href="10, LALUAN MEDAN RAPAT, KAMPUNG GUNUNG RAPAT, 31350 IPOH, PERAK">Liana Fresh N Bake Ipoh</a>  </div>
+	</div>
+	<!------- kotak3 akhir ----->
+  
+  
+  <div class="text" id="kotak4_product">
+  <h1>PRODUCT</h1>
+        <hr style="border-top: dotted 1px; color:#999; width:100%;">
+  <div class="container" style="width:25%; height:400px; float:left; padding:1%;">
+         <img src="download.jpg" width="100%" height="200px"  class="image" id="gambar"/>
+         <div class="below">
+           <div class="text"><strong>Bread Rotiboy</strong></div>
+      </div>
+    This Bakery Product is sold at <a href="G09, Tesco Extra Ipoh Garden, Jln Jambu, Taman Teh Teng Seng, 30020 Ipoh, Perak" class="container">Kedai Rotiboy Bakeshoppe Ipoh</a> </div>
+        
+        <div class="container" style="width:25%; height:400px; float:left; padding:1%;">
+        <img src="cheese tart.png" width="100%" height="200px" class="image" id="gambar"/>
+        <div class="below">
+          <div class="text"><strong>Cheese Tart</strong></div>
+         </div>
+      This Bakery Product is sold at <a href="No.3, Lorong Bercham 19, Bercham, 31400 Ipoh, Perak" class="container">Kedai Kek Ipoh Fieda Bakery</a> </div>
+        
+    <div class="container" style="width:25%; height:400px; float:left; padding:1%;">
+        <img src="pavlova.jpg" width="100%" height="200px" class="image" id="gambar" />
+      <div class="below">
+          <div class="text"><strong>Pavlova</strong></div>
+      </div>
+      This Bakery Product is sold at <a href="Address: 1, Persiaran Lagun Sunway, Sunway City Ipoh, 31150 Ipoh, Perak" class="container">Fieda's Pavlova</a> </div>
+        
+        <div class="container" style="width:25%; height:400px; float:left; padding:1%;">
+        <img src="chewy-chocolate-brownies-1200-1200x1200-c.jpg.optimal.jpg" width="100%" height="200px" id="gambar" class="image" />
+          <div class="below">
+            <div class="text"><strong>Choco Brownies</strong></div>
+         </div>
+      This Bakery Product is sold at <a href="G09, TESCO EXTRA IPOH GARDEN, JALAN JAMBU, TAMAN TEH TENG SENG, 30020 IPOH, PERAK" class="container"><strong>Kedai Kek Ipoh Fieda Bakery</strong></a></div>
+  
+  </div>
+
+	
+</div><!-- bekas besar berakhir --------->
+</body>
+</html>
